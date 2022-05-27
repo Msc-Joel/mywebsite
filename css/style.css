@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(90deg, rgb(253, 238, 211) 0%, rgb(222, 253, 255) 100%);
+}
+.header {
+    max-width: 50rem;
+    font-family: poppins;
+}
+h1 {
+    text-align: center;
+}
+​
+.section {
+    max-width: 50rem;
+    margin: auto;
+}
+.footer {
+    max-width: 50rem;
+    margin: 2rem auto; /* vertical margin and horizontal margin */
+    text-align: center;
+    border-top: solid 1px;
+    border-color: hsl(0, 0%, 50%);
+}
+img {
+    max-width: 50rem;
+}
+h3 {
+    font-family: poppins;
+}
+p {
+    font-family: poppins;
+    line-height: 1.75em;
+}
+.footer p {
+    font-size: small;
+}
+a, a:visited {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: black;
+}
+a:hover {
+    color: hsla(0, 0%, 0%, 0.5);
+}
+a.no-underline {
+    text-decoration: none;
+}
