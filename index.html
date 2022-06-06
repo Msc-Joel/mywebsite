@@ -30,16 +30,25 @@
     <div id="assignments" class="section">
         <h2>Assignments</h2>
         <a class="no-underline" href="http://" target="_blank" rel="noopener noreferrer">
-            <h3>Introduction to web maps</h3>
-            <img src="images/01_TheCityMap.png" alt="MTA turnstile data NYC">
-            <p>An exploratory data analysis showing MTA turnstile data points. The data points show anomalities of the day and ecommended that MTA campaign to end fee evasion focus on stations with high weekday and low weekend traffic
-            anomalies, time of day and other sources of demographic data should be considered for further analysis.</p>
-        </a>
-        <a class="no-underline" href="http://" target="_blank" rel="noopener noreferrer">
-            <h3><strong>Yellow-billed stock<strong></h3>
-            <img src="images/hornbill.jpg" alt="Thumbnail image of an African hornbill captured at the Okavango Delta in Botswana">
-            <p>Yellow-billed storks are medium-sized wading storks that live around rivers and wetlands, preying mainly on small freshwater fish, as well as crustaceans, frogs, insects and worms.</p>
-        </a>
+            <h3>1. Introduction to web maps with Mapbox</h3>
+            <div class="header">
+                <hr>
+                <p>This is an introductory guide as well as the basic steps in creating an interactive 
+                    web map displaying 2020 presidential election data. In this process I used Mapbox GL JS 
+                    as the main JavaScript library powering the interactive map.</p>
+                <hr>
+                <div id='map'></div>
+                <script type='text/javascript' src="map.js"></script>
+            
+                <h3>Creating a Graduated Point Interactive Map</h3>
+            
+                <p>I also created a graduated point map and instead of the state and 
+                    county polygon layers I added the centroids I created.  First, I removed the two polygon layers
+                    from my map above. I also left the outlines of the counties and states that were 
+                    also generated from that data. Secondly I added the centroids layer, but style it as points. 
+                    The circle-radius gives the difference between Biden and Trump votes, in absolute values</p> 
+                <div id='map2'></div>
+                <script type='text/javascript' src="map.js"></script>
     </div>
     <div class="footer">
         <p><b></b>Copyright © 2022<b> | All rights reserved <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-ND 4.0</a></p>
